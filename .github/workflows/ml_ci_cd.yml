@@ -13,3 +13,13 @@ jobs:
     - uses: actions/checkout@v2
     - name: python version
       run: python --version
+
+    - name: python version
+      run: python --version
+    - name: pip install
+      run: python install -r requirements.txt
+
+
+
+
+
